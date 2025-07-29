@@ -24,6 +24,17 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				/* WhatsApp Brand Colors */
+				'whatsapp-green': 'hsl(var(--whatsapp-green))',
+				'whatsapp-green-dark': 'hsl(var(--whatsapp-green-dark))',
+				'whatsapp-green-light': 'hsl(var(--whatsapp-green-light))',
+				
+				/* Text Colors */
+				headline: 'hsl(var(--headline))',
+				subheadline: 'hsl(var(--subheadline))',
+				'footer-text': 'hsl(var(--footer-text))',
+				
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
