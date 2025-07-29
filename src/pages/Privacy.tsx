@@ -29,53 +29,26 @@ const Privacy = () => {
             </div>
 
             <section>
-              <h2 className="text-xl font-semibold text-headline mb-3">1. Information We Collect</h2>
               <p>
-                We collect minimal information when you use our WhatsApp group invitation service:
-              </p>
-              <ul className="list-disc pl-6 mt-2">
-                <li>Basic usage analytics (anonymous)</li>
-                <li>Information you voluntarily provide when contacting us</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-xl font-semibold text-headline mb-3">2. How We Use Information</h2>
-              <p>
-                Any information we collect is used to:
-              </p>
-              <ul className="list-disc pl-6 mt-2">
-                <li>Improve our service</li>
-                <li>Respond to your inquiries</li>
-                <li>Ensure service security and integrity</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-xl font-semibold text-headline mb-3">3. WhatsApp Privacy</h2>
-              <p>
-                When you join our WhatsApp group, your participation is governed by WhatsApp's Privacy Policy. We do not have access to your WhatsApp account information or personal messages.
+                We value your privacy. This website does not collect, store, or sell any personal data. When you click the "Join WhatsApp Group" button, you are redirected to WhatsApp voluntarily and independently. We do not retain your phone number or any identifiable information.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-headline mb-3">4. Data Security</h2>
               <p>
-                We implement appropriate security measures to protect against unauthorized access, alteration, disclosure, or destruction of your information.
+                We do not use cookies, tracking pixels, or third-party advertising scripts on this site.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-headline mb-3">5. Cookies</h2>
               <p>
-                Our website may use cookies to enhance user experience. You can choose to disable cookies through your browser settings.
+                Your interaction with this page is anonymous and limited to the content displayed here.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-headline mb-3">6. Contact Us</h2>
               <p>
-                If you have any questions about this Privacy Policy, please contact us through our Contact page.
+                If you have any concerns about your data or privacy, feel free to contact us.
               </p>
             </section>
           </div>

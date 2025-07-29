@@ -49,123 +49,53 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Contact Form */}
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Mail className="w-5 h-5" />
-                Send us a Message
-              </CardTitle>
-              <CardDescription>
-                Fill out the form below and we'll get back to you as soon as possible.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="space-y-2">
-                  <Label htmlFor="name">Name</Label>
-                  <Input
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                  />
+        <div className="space-y-6">
+          <section>
+            <p className="text-lg mb-6">
+              If you have any questions, suggestions, or concerns, please feel free to reach out to us via the phone numbers below:
+            </p>
+            
+            <div className="space-y-4">
+              <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
+                <span className="text-2xl">🇫🇷</span>
+                <div>
+                  <p className="font-semibold">France</p>
+                  <p className="text-primary">+33 7 56 75 73 42</p>
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="email">Email</Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                  />
+              </div>
+              
+              <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
+                <span className="text-2xl">🇬🇧</span>
+                <div>
+                  <p className="font-semibold">United Kingdom</p>
+                  <p className="text-primary">+44 7476 966269</p>
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="subject">Subject</Label>
-                  <Input
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                  />
+              </div>
+              
+              <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
+                <span className="text-2xl">🇵🇰</span>
+                <div>
+                  <p className="font-semibold">Pakistan</p>
+                  <p className="text-primary">+92 310 1040700</p>
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                  />
-                </div>
-                <Button type="submit" className="w-full">
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
+              </div>
+            </div>
+          </section>
 
-          {/* Contact Information */}
-          <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <MessageCircle className="w-5 h-5" />
-                  WhatsApp Group Support
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  For immediate assistance related to the WhatsApp group, you can also reach out to us directly through the group chat.
-                </p>
-                <Button variant="whatsapp" asChild>
-                  <a 
-                    href="https://chat.whatsapp.com/BkbSqbYehbJ7LeHsze7Y0o?mode=ac_t" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    Join Group for Support
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Response Time</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  We aim to respond to all inquiries within 24-48 hours during business days. For urgent matters, please indicate so in your message subject line.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Common Questions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm">
-                  <p><strong>Q: How do I join the WhatsApp group?</strong></p>
-                  <p className="text-muted-foreground">A: Simply click the "Join WhatsApp Group" button on our homepage.</p>
-                  
-                  <p><strong>Q: How do I leave the group?</strong></p>
-                  <p className="text-muted-foreground">A: Open the group chat, tap the group name, and select "Exit Group".</p>
-                  
-                  <p><strong>Q: Is the group free to join?</strong></p>
-                  <p className="text-muted-foreground">A: Yes, joining our WhatsApp group is completely free.</p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+          <section className="pt-6 border-t">
+            <p className="text-muted-foreground mb-4">
+              You may also reach us through our WhatsApp group link for faster support.
+            </p>
+            <Button variant="whatsapp" asChild>
+              <a 
+                href="https://chat.whatsapp.com/BkbSqbYehbJ7LeHsze7Y0o?mode=ac_t" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Contact via WhatsApp Group
+              </a>
+            </Button>
+          </section>
         </div>
       </div>
     </div>
