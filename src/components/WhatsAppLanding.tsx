@@ -55,25 +55,25 @@ const WhatsAppLanding = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex flex-wrap justify-center gap-6 text-sm text-footer-text mb-4">
             <a 
-              href="/terms" 
+              href="terms.html" 
               className="hover:text-primary transition-colors duration-200"
             >
               Terms & Conditions
             </a>
             <a 
-              href="/privacy" 
+              href="privacy.html" 
               className="hover:text-primary transition-colors duration-200"
             >
               Privacy Policy
             </a>
             <a 
-              href="/returns" 
+              href="returns.html" 
               className="hover:text-primary transition-colors duration-200"
             >
               Return & Refund Policy
             </a>
             <a 
-              href="/contact" 
+              href="contact.html" 
               className="hover:text-primary transition-colors duration-200"
             >
               Contact Us
