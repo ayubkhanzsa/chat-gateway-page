@@ -21,6 +21,13 @@ const Privacy = () => {
           </p>
 
           <div className="space-y-6">
+            <div className="bg-muted/50 p-4 rounded-lg border">
+              <p className="font-medium text-primary mb-2">Important Notice:</p>
+              <p className="text-sm">
+                We do not collect or store any personal data. Joining our WhatsApp group is 100% voluntary, and all communication is limited to WhatsApp only.
+              </p>
+            </div>
+
             <section>
               <h2 className="text-xl font-semibold text-headline mb-3">1. Information We Collect</h2>
               <p>
